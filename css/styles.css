@@ -1,0 +1,278 @@
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #e5e5e5;
+}
+
+.row {
+  position: absolute;
+  display: inline-flex;
+  width: 1152px;
+  height: 700px;
+  background-color: #ffffff;
+  top: 30px;
+  left: 125px;
+}
+
+.logo {
+  position: absolute;
+  width: 59px;
+  height: 63px;
+  top: 27px;
+  left: 560px;
+}
+.header {
+  position: absolute;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #086db8;
+  top: 90px;
+  left: 37px;
+  width: 108px;
+  height: 40px;
+}
+
+.input-box {
+  position: absolute;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.fname {
+  width: 277px;
+  height: 40px;
+  left: 41px;
+  top: 193px;
+}
+.lname {
+  width: 277px;
+  height: 40px;
+  left: 341px;
+  top: 193px;
+}
+.email {
+  width: 277px;
+  height: 40px;
+  left: 41px;
+  top: 282px;
+}
+
+.gender {
+  width: 20px;
+  height: 20px;
+  left: 343px;
+  top: 288px;
+  background: #086db8;
+}
+
+.gender-2 {
+  width: 20px;
+  height: 20px;
+  left: 433px;
+  top: 288px;
+  background: #fff;
+}
+
+.gender-3 {
+  width: 20px;
+  height: 20px;
+  left: 534px;
+  top: 288px;
+  background: #fff;
+  appearance: radio;
+}
+
+.password {
+  width: 277px;
+  height: 40px;
+  left: 41px;
+  top: 365px;
+}
+
+.cpass {
+  width: 277px;
+  height: 40px;
+  left: 341px;
+  top: 365px;
+}
+
+.edu {
+  position: absolute;
+  width: 277px;
+  height: 40px;
+  left: 41px;
+  top: 448px;
+}
+
+.exp {
+  position: absolute;
+  width: 277px;
+  height: 40px;
+  left: 341px;
+  top: 448px;
+}
+
+.about {
+  position: absolute;
+  width: 575px;
+  height: 60px;
+  left: 41px;
+  top: 537px;
+}
+
+.label {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.label-fname {
+  position: absolute;
+  width: 91px;
+  height: 24px;
+  left: 41px;
+  top: 161px;
+}
+
+.label-lname {
+  position: absolute;
+  width: 87px;
+  height: 24px;
+  left: 341px;
+  top: 161px;
+}
+
+.label-email {
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 41px;
+  top: 250px;
+}
+
+.label-gender {
+  position: absolute;
+  width: 62px;
+  height: 24px;
+  left: 341px;
+  top: 250px;
+}
+
+.label-male {
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  left: 372px;
+  top: 288px;
+}
+
+.label-female {
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  left: 462px;
+  top: 288px;
+}
+
+.label-other {
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  left: 563px;
+  top: 288px;
+}
+
+.label-pass {
+  position: absolute;
+  width: 80px;
+  height: 21px;
+  left: 41px;
+  top: 333px;
+}
+
+.label-cpass {
+  position: absolute;
+  left: 341px;
+  top: 333px;
+}
+
+.label-edu {
+  position: absolute;
+  left: 41px;
+  top: 416px;
+}
+
+.label-exp {
+  position: absolute;
+  left: 341px;
+  top: 416px;
+}
+
+.label-about {
+  position: absolute;
+  left: 41px;
+  top: 504px;
+}
+
+.btn {
+  position: absolute;
+  width: 222px;
+  height: 40px;
+  left: 396px;
+  top: 632px;
+  background: #3e53c4;
+  border: 1px solid #086db8;
+  border-radius: 10px 0px;
+}
+
+.text {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Second Side */
+
+.col-4 {
+  position: absolute;
+  display: block;
+  width: 487px;
+  height: 700px;
+  left: 665px;
+  top: -1px;
+  background: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)),
+    url(https://res.cloudinary.com/pacifylabs/image/upload/v1651758496/pexels-andres-ayrton-6578392_1_szxfw4.png);
+}
+
+.kodeCamp {
+  position: absolute;
+  width: 153px;
+  height: 40px;
+  left: 294px;
+  top: 60px;
+  color: #fff;
+}
+
+.kodeCamp-text {
+  position: absolute;
+  left: 53px;
+  top: 559px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
